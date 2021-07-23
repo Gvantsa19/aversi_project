@@ -976,13 +976,12 @@ input:checked + .slide-container .nav label { display: block; }
     display: none;
     position: absolute;
     max-width: 1400px;
-    width: 100%;
     height: auto;
     padding: 40px;
     z-index: 9;
     margin-top: 100px;
-    top: -7%;
-    left: 0%;
+    top: -35%;
+    left: 2.6%;
     background-color: white;
     border-radius: 10px;
 }
@@ -992,9 +991,8 @@ input:checked + .slide-container .nav label { display: block; }
     display: flex;
     flex-direction: row;
     cursor: pointer;
-    margin: 10px;
-    padding: 20px;
-    max-height: 110px;
+    margin-left: 10px;
+    padding: 10px;
     background-color: grey;
     border-radius: 20px 20px 0 0;
     color: white;
