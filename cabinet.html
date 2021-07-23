@@ -87,45 +87,47 @@
 
     <section>
         <div class="flex">
-            <ul class="info-ul" id="info-menu">
-                <li class="info-li"><a class="info-a" href="#" onClick="toggleDiv(this, 'overview');">Overview</a></li>
-                <li class="info-li"><a class="info-a" href="#" onClick="toggleDiv(this, 'reviews');">Reviews</a></li>
-                <li class="info-li"><a class="info-a" href="#" onClick="toggleDiv(this, 'news');">News</a></li>
-                <li class="info-li"><a class="info-a" href="#" onClick="toggleDiv(this, 'gallery');">Gallery</a></li>
-            </ul>
-            <div id="overview" class="content">                    
-              <div class="info-edit">
-                <span class="personalInfoTitle">პირადი ინფორმაციის რედაქტირება</span>
-                <div class="photo-edit">
-                    <div class="photo-to-edit"><img class="image" src="images/profile.png" alt="image"></div>
-                    <div>
-                        <a class="change-photoText" href="#">სურათის შეცვლა</a>
-                        <div class="underlinegrey"></div>
-                    </div>
-                </div>
-                <form action="">
-                    <div class="forms-block">
-                        <div class="forms">
-                            <label class="form-title" for="phone">მობილური ნომერი:</label>
-                            <input class="form" type="tel" id="phone" name="phone" placeholder="577777777" required>
-                        </div>
-                        <div class="forms">
-                            <label class="form-title" for="email">ელ-ფოსტა:</label>
-                            <input class="form" type="email" id="email" name="email">
-                        </div>
-                        <div class="forms">
-                            <label class="form-title" for="homepage">მისამართი:</label>
-                            <input class="form" type="url" id="homepage" name="homepage">
-                        </div>
-                    </div>
-                    <button class="save">შენახვა</button>
-                </form>
-               </div>
+    <ul class="info-ul" id="info-menu">
+        <li class="info-li"><a class="info-a" href="#" onClick="toggleDiv(this, 'overview');"><i class="fas fa-user-tie"></i> პირადი ინფორმაცია</a></li>
+        <li class="info-li"><a class="info-a" href="#" onClick="toggleDiv(this, 'reviews');"><i class="fas fa-address-card"></i> მტრედი ბარათის ქულების შემოწმება</a></li>
+        <li class="info-li"><a class="info-a" href="#" onClick="toggleDiv(this, 'news');"><i class="fas fa-exchange-alt"></i> მტრედი ბარათის ანგარიშზე მიბმა</a></li>
+        <li class="info-li"><a class="info-a" href="#" onClick="toggleDiv(this, 'gallery');"><i class="fas fa-gift"></i> საჩუქრის არჩევა ქულების მიხედვით</a></li>
+        <li class="info-li"><a class="info-a" href="#" onClick="toggleDiv(this, 'gallery');"><i class="fas fa-address-book"></i> მისამართების მართვა</a></li>
+        <li class="info-li"><a class="info-a" href="#" onClick="toggleDiv(this, 'gallery');"><i class="fas fa-info-circle"></i> ინფორმაცია შეკვეთებზე</a></li>
+    </ul>
+    <div id="overview" class="content">                    
+      <div class="info-edit">
+        <span class="personalInfoTitle">პირადი ინფორმაციის რედაქტირება</span>
+        <div class="photo-edit">
+            <div class="photo-to-edit"><img class="image" src="images/profile.png" alt="image"></div>
+            <div>
+                <a class="change-photoText" href="#">სურათის შეცვლა</a>
+                <div class="underlinegrey"></div>
             </div>
-            <div id="reviews" class="content">Reviews...</div>
-            <div id="news" class="content">News...</div>
-            <div id="gallery" class="content">Gallery...</div>
         </div>
+        <form action="">
+            <div class="forms-block">
+                <div class="forms">
+                    <label class="form-title" for="phone">მობილური ნომერი:</label>
+                    <input class="form" type="tel" id="phone" name="phone" placeholder="577777777" required>
+                </div>
+                <div class="forms">
+                    <label class="form-title" for="email">ელ-ფოსტა:</label>
+                    <input class="form" type="email" id="email" name="email">
+                </div>
+                <div class="forms">
+                    <label class="form-title" for="homepage">მისამართი:</label>
+                    <input class="form" type="url" id="homepage" name="homepage">
+                </div>
+            </div>
+            <button class="save">შენახვა</button>
+        </form>
+       </div>
+    </div>
+    <div id="reviews" class="content">Reviews...</div>
+    <div id="news" class="content">News...</div>
+    <div id="gallery" class="content">Gallery...</div>
+</div>
 
     </section>
 
