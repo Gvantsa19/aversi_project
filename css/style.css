@@ -981,6 +981,7 @@ input:checked + .slide-container .nav label { display: block; }
     padding: 40px;
     z-index: 9;
     margin-top: 100px;
+    top: -7%;
     left: 0%;
     background-color: white;
     border-radius: 10px;
@@ -992,13 +993,13 @@ input:checked + .slide-container .nav label { display: block; }
     flex-direction: row;
     cursor: pointer;
     margin: 10px;
-    padding: 5px;
+    padding: 20px;
     max-height: 110px;
     background-color: grey;
-    border-radius: 20px;
+    border-radius: 20px 20px 0 0;
     color: white;
 }
-.active3 {background-color: white; border-radius: 20px; padding: 20px; color: red;}
+.active3 {background-color: white; color: red;}
 /* cart */
 .cart-first-block {
     max-width: 1600px;
