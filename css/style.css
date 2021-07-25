@@ -1043,11 +1043,7 @@ input:checked + .slide-container .nav label { display: block; }
 }
 .heartBasket {color: white; font-size: 30px;}
 .anotation {  margin-top: 150px;}
-.anotationtext {
-    font-size: 18px;
-    color: #6A6A68;
-    margin-bottom: 15px;
-}
+.anotationtext {font-size: 18px; color: #6A6A68; margin-bottom: 15px;}
 .container3 {
     padding: 2%;
     margin: 0 auto 750px;
@@ -1228,7 +1224,7 @@ input:checked + .slide-container .nav label { display: block; }
     border-radius: 10px;
     padding: 50px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    margin-bottom: 25px;
+    margin-top: 25px;
 }
 .personalInfoTitle {color: #7D8078; font-size: 26px;}
 .photo-edit {
@@ -1264,6 +1260,7 @@ input:checked + .slide-container .nav label { display: block; }
     background-color: white;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     border-radius: 20px;
+    margin-top: 20px;
 }
 .info-li>.info-a {color: #7D8078; font-size: 22px;}
 .content {
