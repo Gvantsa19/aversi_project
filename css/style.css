@@ -72,6 +72,49 @@ body {background-color: #F4F2F0;}
     align-items: center;
 }
 .menu-ul{display: flex;}
+.dropdown2 {
+    display: inline-block;
+    position: relative;
+}
+.dd-button {
+    display: inline-block;
+    border-radius: 4px;
+    padding: 10px 30px 10px 20px;
+    cursor: pointer;
+    white-space: nowrap;
+}
+.dd-button:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: 3px;
+    transform: translateY(-50%);
+    width: 5px; 
+    height: 0; 
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 8px solid black;
+}
+.dd-button:hover {background-color: #eeeeee;}
+.dd-input { display: none;}
+.dd-menu {
+    position: absolute;
+    left: 20%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 0 6px 0 rgba(0,0,0,0.1);
+    background-color: #ffffff;
+}
+.dd-input + .dd-menu {display: none;} 
+.dd-input:checked + .dd-menu {display: block;} 
+.dd-menu li {padding: 10px 20px; cursor: pointer; white-space: nowrap;}
+.dd-menu li:hover {background-color: #f6f6f6;}
+.dd-menu li a {
+    display: block;
+    margin: -10px -20px;
+    padding: 10px 20px;
+}
+.dd-menu li.divider{border-bottom: 1px solid #cccccc;}
 .nav-li {
     max-width: 234px;
     width: 100%;
@@ -767,7 +810,7 @@ input:checked + .slide-container .nav label { display: block; }
     width: 100%;
     height: auto;
     background-color: white;
-    padding: 20px;
+    padding: 10px;
     border-radius: 10px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
@@ -778,7 +821,7 @@ input:checked + .slide-container .nav label { display: block; }
     border: none;
     color: grey;
     font-size: 18px;
-    margin-top: 20px;
+    margin-top: 15px;
 }
 .fa-sort-down {font-size: 30px; opacity: 0.8; margin-left: 125px;}
 .lists-and-sort {
@@ -809,6 +852,44 @@ input:checked + .slide-container .nav label { display: block; }
     font-size: 18px;
 }
 .sorter {color: #707070; font-size: 18px;}
+.dropdown-for-filter {
+    display: inline-block; 
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+.filter-button {
+  display: inline-block;
+  padding: 10px 30px 10px 20px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.filter-button:after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  transform: translateY(-50%);
+  width: 0; 
+  height: 0; 
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid black;
+}
+.filter-button:hover {background-color: #eeeeee;}
+.filter-input {display: none;}
+.filter-menu {
+  position: absolute;
+  border-radius: 4px;
+  box-shadow: 0 0 6px 0 rgba(0,0,0,0.1);
+  background-color: #ffffff;
+}
+.filter-input + .filter-menu {display: none;} 
+.filter-input:checked + .filter-menu {display: block;} 
+.filter-menu li {padding: 10px 20px; cursor: pointer; white-space: nowrap;}
+.filter-menu li:hover { background-color: #f6f6f6;}
+.filter-menu li a {display: block; margin: -10px -20px; padding: 10px 20px;}
+.filter-menu li.divider{border-bottom: 1px solid #cccccc;}
 .yourEmail {
     max-width: 288px;
     width: 100%;

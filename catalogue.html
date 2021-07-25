@@ -63,7 +63,17 @@
                         </div>
                     </ul>
                     <ul id="menu" class="menu-ul">
-                        <div class="nav-li nav-li-catalog"><li><a class="nav-a" href="catalogue.html">კატალოგი</a></li></div>
+                        <label class="dropdown2">
+                            <div class="nav-li nav-li-catalog dd-button"><li><a class="nav-a" href="catalogue.html">კატალოგი</a></li></div>
+                            <input type="checkbox" class="dd-input" id="test">
+                            <ul class="dd-menu">
+                              <li><a class="dropdown-list" href="catalogue.html">წამლები</a></li>
+                              <li><a class="dropdown-list" href="#">კოსმეტიკა</a></li>
+                              <li><a class="dropdown-list" href="#">ჰიგიენა</a></li>
+                              <li><a class="dropdown-list" href="#">ოპტიკა</a></li>
+                              <li><a class="dropdown-list" href="#">ორთოპედია</a></li>
+                            </ul>
+                        </label>
                         <div class="nav-li"><li><a class="nav-a" href="map.html">აფთიაქები</a></li></div>
                         <div class="nav-li"><li><a class="nav-a" href="#">კლინიკები</a></li></div>
                         <div class="nav-li"><li><a class="nav-a" href="#">ჩვენს შესახებ</a></li></div>
@@ -90,73 +100,92 @@
         <div class="catalogue-main-block">
             <div class="left-block">
                 <div class="filter">
-                    <span class="sorter">გაფილტვრა <i onclick="toggle_div_fun('sectiontohide');" class="fas fa-sort-down"></i></span>
-                    <form action="" id="sectiontohide">
-                        <div class="selects">
-                            <select class="option">
-                                <option value="0">ფასით</option>
-                                <option value="1">5-10</option>
-                                <option value="2">10-20</option>
-                                <option value="3">20-30</option>
+                    <label class="dropdown-for-filter">
+                        <div class="filter-button"><span class="sorter">გაფილტვრა</span></div>
+                        <input type="checkbox" class="filter-input" id="test">
+                        <ul class="filter-menu">
+                          <li>    
+                            <div class="selects">
+                              <select class="option">
+                                 <option value="0">ფასით</option>
+                                 <option value="1">5-10</option>
+                                 <option value="2">10-20</option>
+                                 <option value="3">20-30</option>
                               </select>
-                        </div>
-                        <div class="selects">
-                            <select class="option">
-                                <option value="0">დოზირებით</option>
-                                <option value="1">5-10</option>
-                                <option value="2">10-20</option>
-                                <option value="3">20-30</option>
-                              </select>
-                        </div>
-                        <div class="selects">
-                            <select class="option">
-                                <option value="0">გამოშვების ქვეყნით</option>
-                                <option value="1">5-10</option>
-                                <option value="2">10-20</option>
-                                <option value="3">20-30</option>
-                              </select>
-                        </div>
-                        <div class="selects">
-                            <select class="option">
-                                <option value="0">ბრენდით</option>
-                                <option value="1">5-10</option>
-                                <option value="2">10-20</option>
-                                <option value="3">20-30</option>
-                              </select>
-                        </div>
-                        <div class="selects">
-                            <select class="option">
-                                <option value="0">მწარმოებლით</option>
-                                <option value="1">5-10</option>
-                                <option value="2">10-20</option>
-                                <option value="3">20-30</option>
-                              </select>
-                        </div>
-                        <div class="selects">
-                            <select class="option">
-                                <option value="0">შეფუთვის ფორმით</option>
-                                <option value="1">5-10</option>
-                                <option value="2">10-20</option>
-                                <option value="3">20-30</option>
-                              </select>
-                        </div>
-                        <div class="selects">
-                            <select class="option">
-                                <option value="0">ასაკის მიხედვით</option>
-                                <option value="1">5-10</option>
-                                <option value="2">10-20</option>
-                                <option value="3">20-30</option>
-                              </select>
-                        </div>
-                        <div class="selects">
-                            <select class="option">
-                                <option value="0">გაცემის ფორმის მიხედვით</option>
-                                <option value="1">5-10</option>
-                                <option value="2">10-20</option>
-                                <option value="3">20-30</option>
-                              </select>
-                        </div>
-                    </form>
+                            </div>
+                           </li>
+                          <li>
+                            <div class="selects">
+                                <select class="option">
+                                    <option value="0">დოზირებით</option>
+                                    <option value="1">5-10</option>
+                                    <option value="2">10-20</option>
+                                    <option value="3">20-30</option>
+                                  </select>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="selects">
+                                <select class="option">
+                                    <option value="0">გამოშვების ქვეყნით</option>
+                                    <option value="1">5-10</option>
+                                    <option value="2">10-20</option>
+                                    <option value="3">20-30</option>
+                                  </select>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="selects">
+                                <select class="option">
+                                    <option value="0">ბრენდით</option>
+                                    <option value="1">5-10</option>
+                                    <option value="2">10-20</option>
+                                    <option value="3">20-30</option>
+                                  </select>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="selects">
+                                <select class="option">
+                                    <option value="0">მწარმოებლით</option>
+                                    <option value="1">5-10</option>
+                                    <option value="2">10-20</option>
+                                    <option value="3">20-30</option>
+                                  </select>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="selects">
+                                <select class="option">
+                                    <option value="0">შეფუთვის ფორმით</option>
+                                    <option value="1">5-10</option>
+                                    <option value="2">10-20</option>
+                                    <option value="3">20-30</option>
+                                  </select>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="selects">
+                                <select class="option">
+                                    <option value="0">ასაკის მიხედვით</option>
+                                    <option value="1">5-10</option>
+                                    <option value="2">10-20</option>
+                                    <option value="3">20-30</option>
+                                  </select>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="selects">
+                                <select class="option">
+                                    <option value="0">გაცემის ფორმის მიხედვით</option>
+                                    <option value="1">5-10</option>
+                                    <option value="2">10-20</option>
+                                    <option value="3">20-30</option>
+                                  </select>
+                            </div>
+                          </li>
+                        </ul>
+                      </label>
                 </div>
 
                 <div class="yourEmail">
@@ -537,7 +566,6 @@
     </footer>
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-	<script src="js/slick.min.js"></script>
     <script src="js/script.js" defer></script>
     <script src="js/heart.js"></script>
 </body>
