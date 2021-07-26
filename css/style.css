@@ -1309,7 +1309,7 @@ input:checked + .slide-container .nav label { display: block; }
     -webkit-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
             box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
-.cart-left-block { max-width: 980px; width: 100%; height: auto;}
+.cart-left-block { max-width: 980px; width: 100%; height: auto; margin-bottom: 20px;}
 .cart-second-left {
     max-width: 980px;
     width: 100%;
