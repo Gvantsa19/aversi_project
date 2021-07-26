@@ -1687,3 +1687,4 @@ input:checked + .slide-container .nav label { display: block; }
 /* heart */
 .block { color: grey; font-size: 25px; font-weight:bold;}
 .rotated { color: red; font-weight:bold; font-size: 25px;}
+#Div2 {display: none;}
