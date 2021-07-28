@@ -1894,9 +1894,9 @@ input:checked + .slide-container .nav label {
     margin-left: 50px;
 }
 /* persinal profile */
-.prof-container {
+.profile-container {
     padding: 2%;
-    margin: 0 auto;
+    margin: 50px auto;
     background-color: white;
     display: flex;
     flex-direction: column;
@@ -1908,10 +1908,10 @@ input:checked + .slide-container .nav label {
     /* overflow-y: scroll; */
     position: absolute;
     width: 50%;
-    height: 77%;
+    height: 100%;
     border-radius: 10px;
     right: 11px;
-    top: 77.5%;
+    top: 50%;
     transform: translate(0, -50%);
     padding: 5px;
     z-index: 9;
@@ -1923,7 +1923,6 @@ input:checked + .slide-container .nav label {
     display: flex;
     flex-direction: row;
     cursor: pointer;
-    margin: 10px;
     background-color: white;
   }
   .prof-active .prof-span {
@@ -1931,7 +1930,7 @@ input:checked + .slide-container .nav label {
   }
   .prof-element span {
     padding: 2% 2%;
-    width: 30%;
+    width: 38%;
   }
 .info-edit {
     width: 100%;
