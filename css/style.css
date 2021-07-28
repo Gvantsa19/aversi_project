@@ -1854,15 +1854,56 @@ input:checked + .slide-container .nav label {
     margin-left: 50px;
 }
 /* persinal profile */
+.profile-container {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+.prof-box {
+    display: none;
+    background-color: white;
+    /* overflow-y: scroll; */
+    max-width: 800px;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    margin-top: 25px;
+}
+.prof-active .prof-box {
+    display: block;
+}
+.prof-element {
+    cursor: pointer;
+    margin: 10px;
+    padding: 5px 5px;
+    background-color: white;
+    margin-bottom: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.prof-element span {
+    padding: 2% 2%;
+}
+.prof-active .prof-span {
+    border-bottom: red 4px solid;
+}
 .info-edit {
     width: 100%;
-    height: 793px;
+    height: 745px;
     background-color: white;
     border-radius: 10px;
     padding: 50px;
     -webkit-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
             box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    margin-top: 25px;
+    padding: 28px;
+}
+.prof-span {
+    color: #7D8078;
+    font-size: 22px;
+}
+.fas {
+    margin-right: 10px;
 }
 .personalInfoTitle {
     color: #7D8078; 
@@ -1890,53 +1931,6 @@ input:checked + .slide-container .nav label {
     width: 100%;
     height: 120px;
     border-radius: 50px;
-}
-.info-li {
-    position: relative;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    width: 100%;
-    height: auto;
-    padding: 20px;
-    color: #FFFFFF;
- }
-.info-ul {
-    max-width: 500px;
-    width: 100%;
-    height: 793px;
-    background-color: white;
-    -webkit-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    border-radius: 20px;
-    margin-top: 20px;
-}
-.info-li>.info-a {
-    color: #7D8078; 
-    font-size: 22px;
-}
-.content {
-    display: none; 
-    max-width: 800px; 
-    width: 100%; 
-    height: 793px;
-}
-.active {
-    border-bottom: red 4px solid;
-}
-.flex { 
-    display: -webkit-box; 
-    display: -ms-flexbox; 
-    display: flex; 
-    -ms-flex-pack: distribute; 
-        justify-content: space-around; 
-    -ms-flex-wrap: wrap; 
-        flex-wrap: wrap;
-    margin-top: 50px;
 }
 .change-photoText {
     color: #7D8078; 
