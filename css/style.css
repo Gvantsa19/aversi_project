@@ -1895,7 +1895,7 @@ input:checked + .slide-container .nav label {
 }
 /* persinal profile */
 .profile-container {
-    padding: 2%;
+    padding: 5%;
     margin: 50px auto;
     background-color: white;
     display: flex;
