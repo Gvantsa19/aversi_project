@@ -10,4 +10,5 @@ function switchVisible() {
             document.getElementById('Div2').style.display = 'block';
         }
     }
-  }
+}
+

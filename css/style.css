@@ -2174,6 +2174,7 @@ input:checked + .slide-container .nav label {
     border-radius: 15px;
     padding: 10px 40px;
     margin: 15px 0;
+    cursor: pointer;
 }
 .searchtext {
     color: white; 
