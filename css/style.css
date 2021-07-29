@@ -1473,6 +1473,20 @@ input:checked + .slide-container .nav label {
 .page {
     color: black;
 }
+.medicines-box-second-style {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+.medicine-desc2 {
+    margin: 0 15px;
+}
 /* product */
 .product-medicine-descrip {
     max-width: 1600px;
