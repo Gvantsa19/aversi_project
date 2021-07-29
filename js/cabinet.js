@@ -1,9 +1,9 @@
-const element = document.querySelectorAll('.prof-element');
-element.forEach(function(el, key){                
+const element5 = document.querySelectorAll('.prof-element');
+element5.forEach(function(el, key){                
     el.addEventListener('click', function () {
         el.classList.add("prof-active");
             
-        element.forEach(function(ell, index){
+        element5.forEach(function(ell, index){
             if(key !== index) {
                 ell.classList.remove('prof-active');
             }

@@ -2055,6 +2055,10 @@ input:checked + .slide-container .nav label {
     display: -webkit-box; 
     display: -ms-flexbox; 
     display: flex;
+    flex-wrap: wrap;
+}
+.fa-phone-alt {
+    margin-left: 10px;
 }
 .sunday {
     margin-top: 7px;
