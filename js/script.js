@@ -8,8 +8,7 @@ $("#burger-menu").on("click", function(){
   const slides = document.getElementsByClassName("carousel__item");
   const totalSlides = slides.length;
   
-  document.getElementById("carousel__btn--next")
-  .addEventListener("click", function(){
+  document.getElementById("carousel__btn--next").addEventListener("click", function(){
       moveToNextSlide();
   });
   document.getElementById("carousel__btn--prev")
@@ -34,7 +33,7 @@ $("#burger-menu").on("click", function(){
   function moveToPrevSlide(){
       if (slidePosition === 0){
       // totalSlides -1, if you wan't infinite carousel effect to both ways
-          slidePosition = 0;  
+          slidePosition = 1;  
       } else {
           slidePosition--;
       }
@@ -87,7 +86,7 @@ function movePrevSlide2(){
    
     if (slide2 === 0){
     // totalslides2 -1, if you wan't infinite carousel effect to both ways
-        slide2 = 0;  
+        slide2 = 1;  
     } else {
         slide2--;
     }

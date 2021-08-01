@@ -12,3 +12,17 @@ function switchVisible() {
     }
 }
 
+function switchVisible2() {
+    if (document.getElementById('Div2')) {
+  
+        if (document.getElementById('Div2').style.display == 'none') {
+            document.getElementById('Div2').style.display = 'block';
+            document.getElementById('Div1').style.display = 'none';
+        }
+        else {
+            document.getElementById('Div2').style.display = 'none';
+            document.getElementById('Div1').style.display = 'block';
+        }
+    }
+}
+
