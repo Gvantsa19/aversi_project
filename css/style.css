@@ -497,10 +497,12 @@ input:checked + .slide-container .nav label {
     -ms-flex-pack: distribute;
         justify-content: space-around;
     margin: 0 auto;
+    padding: 10px;
 }
 .informationDiv {
     max-width: 460px;
     width: 100%;
+    padding: 10px;
     height: auto;
     background-color: white;
     -webkit-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -1728,6 +1730,7 @@ input:checked + .slide-container .nav label {
     max-width: 980px;
     width: 100%;
     height: auto;
+    padding: 10px;
     border-radius: 10px;
     background-color: white;
     display: -webkit-box;
@@ -1854,13 +1857,13 @@ input:checked + .slide-container .nav label {
     margin: 15px 0;
 }
 .buy2 {
-    max-width: 300px;
+    max-width: 250px;
     width: 100%;
     height: 54px;
     border: red 1px solid;
     border-radius: 12px;
-    margin-top: 90px;
-    padding: 10px 110px;
+    margin: 90px auto 0;
+    padding: 10px 90px;
     cursor: pointer;
 }
 .buy2text {
