@@ -90,7 +90,7 @@
     .fa-bars {font-size: 35px;}
     .menu-ul{display: none;}   
     .menu-ul.open-menu{display: block;}
-    .nav-li-catalog {display: block;}  
+    .nav-li-catalog {display: flex; align-items: center;}  
     .dropdown {margin-left: 0; max-width: 70px;}
     .slick-dots{display: none;}
   }

@@ -132,19 +132,10 @@ body {background-color: #F4F2F0;}
     cursor: pointer;
     white-space: nowrap;
 }
-.dd-button:after {
-    content: '';
-    position: absolute;
-    top: 50%;
-    right: 3px;
-    -webkit-transform: translateY(-50%);
-        -ms-transform: translateY(-50%);
-            transform: translateY(-50%);
-    width: 5px; 
-    height: 0; 
-    border-left: 8px solid transparent;
-    border-right: 8px solid transparent;
-    border-top: 8px solid white;
+.fa-caret-down {
+    color: white;
+    font-size: 2rem;
+    margin-left: 18px;
 }
 .dd-button:hover {
     background-color: #eeeeee;
@@ -153,6 +144,7 @@ body {background-color: #F4F2F0;}
     display: none;
 }
 .dd-menu {
+    display: none;
     position: absolute;
     left: 20%;
     border: 1px solid #ccc;
@@ -160,6 +152,9 @@ body {background-color: #F4F2F0;}
     -webkit-box-shadow: 0 0 6px 0 rgba(0,0,0,0.1);
             box-shadow: 0 0 6px 0 rgba(0,0,0,0.1);
     background-color: #ffffff;
+}
+.active-list {
+    display: block;
 }
 .dd-input + .dd-menu {
     display: none;
