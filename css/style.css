@@ -201,12 +201,14 @@ body {background-color: #F4F2F0;}
     margin-left: 25px; 
     color: white; 
     font-size: 20px;
+    font-family: "BPG Arial", sans-serif;
 }
 .catalog {
     color: white;
     font-size: 20px;
     margin-left: 15px;
     margin-top: 5px;
+    font-family: "BPG Arial", sans-serif;
 }
 .menu-ul { 
     max-width: 641px; 
@@ -564,8 +566,8 @@ input:checked + .slide-container .nav label {
     display: -webkit-box; 
     display: -ms-flexbox; 
     display: flex;  
-    -webkit-animation: fade 900ms ease-in-out;  
-    animation: fade 900ms ease-in-out;
+    -webkit-animation: fade 950ms ease-in-out;  
+    animation: fade 950ms ease-in-out;
 }
 @-webkit-keyframes fade{
      0%{
