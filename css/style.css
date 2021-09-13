@@ -531,6 +531,9 @@ input:checked + .slide-container .nav label {
     font-size: 20px;
     margin: 25px auto;
 }
+.informationDiv-paragraph p {
+    color: #6A6A68;
+}
 .main-div-for-slider {
     max-width: 1600px;
     width: 100%;
