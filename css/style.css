@@ -793,6 +793,7 @@ input:checked + .slide-container .nav label {
         -ms-flex-align: center;
             align-items: center;
     max-height: 330px;
+    overflow: hidden;
     max-width: 1200px;
     position: relative;
     margin: 90px auto;
