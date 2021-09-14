@@ -628,17 +628,17 @@ input:checked + .slide-container .nav label {
     height: 0;
 }
 .btn-prev::before{
-    top: 3%;
-    left: 18%;
+    top: -13%;
+    left: 13%;
     content: '<';
-    font-size: 44px;
+    font-size: 56px;
     color: red;
 }
 .btn-next::before{
-    top: 3%;
-    right: 66%;
+    top: -13%;
+    right: 72%;
     content: '>';
-    font-size: 44px;
+    font-size: 56px;
     color: red;
 }
 .fa-star {
@@ -872,17 +872,17 @@ input:checked + .slide-container .nav label {
     height: 0;
 }
 .btn-prev2::before{
-    top: 3%;
-    left: 18%;
+    top: -13%;
+    left: 13%;
     content: '<';
-    font-size: 44px;
+    font-size: 56px;
     color: red;
 }
 .btn-next2::before{
-    top: 3%;
-    left: 32%;
+    top: -13%;
+    left: 26%;
     content: '>';
-    font-size: 44px;
+    font-size: 56px;
     color: red;
 }
 .chipolinos {

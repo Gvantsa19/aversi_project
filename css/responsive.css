@@ -66,6 +66,12 @@
   } 
   .prof-span {font-size: 18px;} 
   .personalInfoTitle {font-size: 22px;}
+  .span-fontSize {
+    font-size: 15px;
+  }
+  .cart-second-left-img {
+    max-width: 80px;
+  }
 }
 @media (max-width: 542px ) { 
   .left-side {
