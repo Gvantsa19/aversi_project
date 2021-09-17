@@ -339,7 +339,7 @@ body {background-color: #F4F2F0;}
 ul.slides {
     display: block;
     position: relative;
-    height: 775px;
+    height: 100%;
     margin: 0;
     padding: 0;
     overflow: hidden;
@@ -880,7 +880,7 @@ input:checked + .slide-container .nav label {
 }
 .btn-next2::before{
     top: -13%;
-    left: 26%;
+    left: 26u%;
     content: '>';
     font-size: 56px;
     color: red;
