@@ -1813,6 +1813,7 @@ input:checked + .slide-container .nav label {
     color: red; 
     border-bottom: red 1px solid; 
     text-align: center; width: 48px;
+    cursor: pointer;
 }
 .price-delete { 
     display: -webkit-box; 
